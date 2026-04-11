@@ -466,3 +466,42 @@ transition:.2s;
 color:white;
 transform:scale(1.1);
 }
+
+/* HISTORY*/
+.history-table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+.history-table th,
+.history-table td{
+padding:10px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+text-align:left;
+color:white;
+}
+
+.history-table th{
+color:#60a5fa;
+}
+/* Interoperable Banking*/
+.aeps-info-center{
+display:flex;
+justify-content:center;
+margin-top:20px;
+}
+
+.center-card{
+width:320px;
+}
+ /* AEPSSERVICES*/
+ .aeps-heading{
+font-size: 38px;
+font-weight: 700;
+text-align: center;
+
+color: #ffffff;
+
+margin-bottom: 30px;
+}

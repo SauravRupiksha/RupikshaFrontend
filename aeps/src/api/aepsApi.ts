@@ -102,3 +102,12 @@ const res = await axios.get(
 return res.data
 
 }
+export const getTransactionHistory = async (mobile:string)=>{
+
+const res = await axios.get(
+`${API}/transaction/${mobile}`
+)
+
+return res.data
+
+}
