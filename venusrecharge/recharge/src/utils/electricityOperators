@@ -1,0 +1,577 @@
+export const electricityOperators = [
+
+    {
+        id: 103,
+        name: "Himachal Pradesh State Electricity Board (HPSEB)",
+        code: "HPE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 104,
+        name: "Gulbarga Electricity Supply Company Limited (GESCOM)",
+        code: "GEE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 105,
+        name: "Chhattisgarh State Electricity Board",
+        code: "CCE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 106,
+        name: "Department of Power Arunachal Pradesh",
+        code: "DOP",
+        serviceType: "UB"
+    },
+
+    {
+        id: 107,
+        name: "CALCUTTA ELECTRIC SUPPLY CORPORATION (CESC)",
+        code: "CWE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 108,
+        name: "Daman and Diu Electricity",
+        code: "DDE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 109,
+        name: "Dakshin Gujarat Vij Company Limited (DGVCL)",
+        code: "DGE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 110,
+        name: "Dakshin Haryana Bijli Vitran Nigam (DHBVN)",
+        code: "DHE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 111,
+        name: "DNH Power Distribution Company Limited",
+        code: "DNE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 112,
+        name: "BSES Yamuna Power Limited",
+        code: "BYE",
+        serviceType: "UB"
+    },
+
+    {
+        id: 113,
+        name: "Chamundeshwari Electricity Supply Corp Ltd (CESCOM) - Non-RAPDRP",
+        code: "CNE",
+        serviceType: "UB"
+    }
+    ,
+{
+    id: 114,
+    name: "Chamundeshwari Electricity Supply Corp Ltd (CESCOM) - RAPDRP",
+    code: "CRE",
+    serviceType: "UB"
+},
+
+{
+    id: 115,
+    name: "CESU, Odisha",
+    code: "CSE",
+    serviceType: "UB"
+},
+
+{
+    id: 116,
+    name: "APDCL - ASSAM",
+    code: "AAE",
+    serviceType: "UB"
+},
+
+{
+    id: 117,
+    name: "TP Ajmer Distribution Ltd (TPADL)",
+    code: "AJE",
+    serviceType: "UB"
+},
+
+{
+    id: 118,
+    name: "Adani Electricity Mumbai Limited",
+    code: "ADE",
+    serviceType: "UB"
+},
+
+{
+    id: 119,
+    name: "APSPDCL-Southern Power Distribution CO AP Ltd",
+    code: "ASE",
+    serviceType: "UB"
+},
+
+{
+    id: 120,
+    name: "Assam Power Distribution Company Ltd (NON-RAPDR)",
+    code: "ANE",
+    serviceType: "UB"
+},
+
+{
+    id: 121,
+    name: "APEPDCL-Eastern Power Distribution CO AP Ltd",
+    code: "APE",
+    serviceType: "UB"
+},
+
+{
+    id: 122,
+    name: "Assam Power Distribution Company Ltd- Smart Prepaid Recharge",
+    code: "APPR",
+    serviceType: "UB"
+},
+
+{
+    id: 123,
+    name: "Ajmer Vidyut Vitran Nigam Limited (AVVNL)",
+    code: "AVE",
+    serviceType: "UB"
+},
+
+{
+    id: 124,
+    name: "Bharatpur Electricity Services Ltd. (BESL)",
+    code: "BEE",
+    serviceType: "UB"
+},
+
+{
+    id: 125,
+    name: "Bangalore Electricity Supply Company",
+    code: "BBE",
+    serviceType: "UB"
+}
+,
+{
+    id: 126,
+    name: "Bikaner Electricity Supply Limited (BKESL)",
+    code: "BKE",
+    serviceType: "UB"
+},
+
+{
+    id: 127,
+    name: "Brihan Mumbai Electric Supply and Transport Undertaking",
+    code: "BME",
+    serviceType: "UB"
+},
+
+{
+    id: 128,
+    name: "BSES Rajdhani Power Limited",
+    code: "BRE",
+    serviceType: "UB"
+},
+
+{
+    id: 129,
+    name: "Jaipur Vidyut Vitran Nigam (JVVNL)",
+    code: "JIE",
+    serviceType: "UB"
+},
+
+{
+    id: 130,
+    name: "Manipur State Power Distribution Company Limited",
+    code: "JUE",
+    serviceType: "UB"
+},
+
+{
+    id: 131,
+    name: "Jharkhand Bijli Vitran Nigam Ltd (JBVNL)",
+    code: "JBE",
+    serviceType: "UB"
+},
+
+{
+    id: 132,
+    name: "Jodhpur Vidyut Vitran Nigam Limited (JDVVNL)",
+    code: "JDE",
+    serviceType: "UB"
+},
+
+{
+    id: 133,
+    name: "Kanpur Electricity Supply Company",
+    code: "KNE",
+    serviceType: "UB"
+},
+
+{
+    id: 134,
+    name: "Kerala State Electricity Board Ltd",
+    code: "KSE",
+    serviceType: "UB"
+},
+
+{
+    id: 135,
+    name: "Kota Electricity Distribution Limited (KEDL)",
+    code: "KTE",
+    serviceType: "UB"
+},
+
+{
+    id: 136,
+    name: "India Power Corporation - West Bengal",
+    code: "IWE",
+    serviceType: "UB"
+},
+
+{
+    id: 137,
+    name: "Hubli Electricity Supply Company Ltd (HESCOM) - RAPDRP",
+    code: "HRE",
+    serviceType: "UB"
+},
+
+{
+    id: 138,
+    name: "India Power Corporation Limited - Bihar",
+    code: "IBE",
+    serviceType: "UB"
+}
+,
+{
+    id: 139,
+    name: "Mangalore Electricity Supply Co. Ltd (MESCOM)",
+    code: "MNE",
+    serviceType: "UB"
+},
+
+{
+    id: 140,
+    name: "Madhya Pradesh Paschim Kshetra Vidyut Vitaran - Indore",
+    code: "MPE",
+    serviceType: "UB"
+},
+
+{
+    id: 141,
+    name: "Madhya Pradesh Poorv Kshetra Vidyut Vitaran - RURAL (MPPKVVCL)",
+    code: "MRE",
+    serviceType: "UB"
+},
+
+{
+    id: 142,
+    name: "MSEDC Limited",
+    code: "MSE",
+    serviceType: "UB"
+},
+
+{
+    id: 143,
+    name: "Madhya Pradesh Madhya Kshetra Vidyut Vitaran Co. Ltd.-Rural (MPMKVVCL)",
+    code: "MME",
+    serviceType: "UB"
+},
+
+{
+    id: 144,
+    name: "Madhya Gujarat Vij Company Limited (MGVCL)",
+    code: "MGE",
+    serviceType: "UB"
+},
+
+{
+    id: 145,
+    name: "Meghalaya Power Dist Corp Ltd",
+    code: "MHE",
+    serviceType: "UB"
+},
+
+{
+    id: 146,
+    name: "M.P. Poorv Kshetra Vidyut Vitaran - URBAN",
+    code: "MKE",
+    serviceType: "UB"
+},
+
+{
+    id: 147,
+    name: "Punjab State Power Corporation Ltd (PSPCL)",
+    code: "PSE",
+    serviceType: "UB"
+},
+
+{
+    id: 148,
+    name: "Purvanchal Vidyut Vitran Nigam Limited (PUVVNL)",
+    code: "PUV",
+    serviceType: "UB"
+},
+
+{
+    id: 149,
+    name: "Paschimachal Vidyut Vitran Nigam Limited",
+    code: "PVE",
+    serviceType: "UB"
+},
+
+{
+    id: 150,
+    name: "Power & Electricity Department – Mizoram",
+    code: "PDE",
+    serviceType: "UB"
+},
+
+{
+    id: 151,
+    name: "Paschim Gujarat Vij Company Limited (PGVCL)",
+    code: "PGE",
+    serviceType: "UB"
+},
+
+{
+    id: 152,
+    name: "Madhya Pradesh Madhya Kshetra Vidyut Vitaran Co. Ltd.-Urban",
+    code: "MUE",
+    serviceType: "UB"
+},
+
+{
+    id: 153,
+    name: "Madhyanchal Vidyut Vitran Nigam Limited (MVVNL)",
+    code: "MVV",
+    serviceType: "UB"
+},
+
+{
+    id: 154,
+    name: "Muzaffarpur Vidyut Vitran Limited",
+    code: "MZE",
+    serviceType: "UB"
+},
+
+{
+    id: 155,
+    name: "North Bihar Power Distribution Company Ltd.",
+    code: "NBE",
+    serviceType: "UB"
+},
+
+{
+    id: 156,
+    name: "TATA Power-Delhi",
+    code: "NDE",
+    serviceType: "UB"
+},
+
+{
+    id: 157,
+    name: "Department of Power, Nagaland",
+    code: "NLE",
+    serviceType: "UB"
+},
+
+{
+    id: 158,
+    name: "NDMC ELECTRICITY",
+    code: "NME",
+    serviceType: "UB"
+}
+,
+{
+    id: 159,
+    name: "Noida Power Company Limited",
+    code: "NNE",
+    serviceType: "UB"
+},
+
+{
+    id: 160,
+    name: "NESCO, Odisha",
+    code: "NSE",
+    serviceType: "UB"
+},
+
+{
+    id: 161,
+    name: "South Bihar Power Distribution Company Ltd.",
+    code: "SBE",
+    serviceType: "UB"
+},
+
+{
+    id: 162,
+    name: "SNDL Nagpur",
+    code: "SDE",
+    serviceType: "UB"
+},
+
+{
+    id: 163,
+    name: "Sikkim Power - RURAL (SKMPWR)",
+    code: "SPE",
+    serviceType: "UB"
+},
+
+{
+    id: 164,
+    name: "Smart PrePaid Meter Recharge, Odisha",
+    code: "SRE",
+    serviceType: "UB"
+},
+
+{
+    id: 165,
+    name: "SOUTHCO, Odisha",
+    code: "STE",
+    serviceType: "UB"
+},
+
+{
+    id: 166,
+    name: "Reliance Energy",
+    code: "REE",
+    serviceType: "UB"
+},
+
+{
+    id: 167,
+    name: "Torrent Power - Bhiwandi",
+    code: "TBE",
+    serviceType: "UB"
+},
+
+{
+    id: 168,
+    name: "Torrent Power - Ahmedabad",
+    code: "THE",
+    serviceType: "UB"
+},
+
+{
+    id: 169,
+    name: "Sikkim Power - URBAN",
+    code: "SUE",
+    serviceType: "UB"
+},
+
+{
+    id: 170,
+    name: "Torrent Power - Agra",
+    code: "TAE",
+    serviceType: "UB"
+}
+,
+{
+    id: 171,
+    name: "Uttarakhand Power Corporation Limited",
+    code: "UKE",
+    serviceType: "UB"
+},
+
+{
+    id: 172,
+    name: "West Bengal State Electricity Distribution Co. Ltd (WBSEDCL)",
+    code: "WBE",
+    serviceType: "UB"
+},
+
+{
+    id: 173,
+    name: "WEST BENGAL STATE ELECTRICITY",
+    code: "WBSE",
+    serviceType: "UB"
+},
+
+{
+    id: 174,
+    name: "WESTCO, Odisha",
+    code: "WOE",
+    serviceType: "UB"
+},
+
+{
+    id: 175,
+    name: "WESCO Utility",
+    code: "WSE",
+    serviceType: "UB"
+},
+
+{
+    id: 176,
+    name: "Uttar Gujarat Vij Company Limited (UGVCL)",
+    code: "UGE",
+    serviceType: "UB"
+},
+
+{
+    id: 177,
+    name: "Uttar Haryana Bijli Vitran Nigam (UHBVN)",
+    code: "UHE",
+    serviceType: "UB"
+},
+
+{
+    id: 178,
+    name: "UPPCL-Postpaid and Smart Prepaid Meter Recharge",
+    code: "UPSR",
+    serviceType: "UB"
+},
+
+{
+    id: 179,
+    name: "Uttar Pradesh Power Corp Ltd (UPPCL) - RURAL",
+    code: "URE",
+    serviceType: "UB"
+},
+
+{
+    id: 180,
+    name: "Tata Power - Mumbai",
+    code: "TME",
+    serviceType: "UB"
+},
+
+{
+    id: 181,
+    name: "Tamil Nadu Electricity Board (TNEB)",
+    code: "TNE",
+    serviceType: "UB"
+},
+
+{
+    id: 182,
+    name: "Torrent Power - Surat",
+    code: "TSE",
+    serviceType: "UB"
+},
+
+{
+    id: 183,
+    name: "Tripura State Electricity Corporation Ltd",
+    code: "TTE",
+    serviceType: "UB"
+},
+
+{
+    id: 184,
+    name: "Uttar Pradesh Power Corp Ltd (UPPCL) - URBAN",
+    code: "UBE",
+    serviceType: "UB"
+}
+
+]
